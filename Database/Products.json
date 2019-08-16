@@ -1,0 +1,26 @@
+[
+   {
+      "id":1,
+      "name":"téliszalámi",
+      "price":2000,
+      "megapack":false
+   },
+   {
+      "id":2,
+      "name":"gumikacsa",
+      "price":3000,
+      "megapack":false
+   },
+   {
+      "id":3,
+      "name":"uborka",
+      "price":2800,
+      "megapack":true
+   },
+   {
+      "id":4,
+      "name":"gesztenye",
+      "price":1000,
+      "megapack":true
+   }
+]
