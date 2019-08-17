@@ -10,6 +10,10 @@ class DiscountMegapack implements DiscountInterface {
         $this->megapackAmount = $megapackAmount;
     }
 
+    public function getName() {
+        return "MegaPack kedvezmeny";
+    }
+
     public function calculateDiscount($cart) {
         $totalDiscountAmount = 0;
 

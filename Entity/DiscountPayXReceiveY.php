@@ -10,6 +10,10 @@ class DiscountPayXReceiveY implements DiscountInterface {
         $this->receiveAmount = $receiveAmount;
     }
 
+    public function getName() {
+        return $this->payAmount . "-t fizet, " . $this->receiveAmount . "-t kap.";
+    }
+
     public function calculateDiscount($cart) {
         if ($this->receiveAmount == 0 || $this->receiveAmount < $this->payAmount) return 0;
 
