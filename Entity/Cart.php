@@ -26,5 +26,15 @@ class Cart {
         return $this->items;
     }
 
+    public function getPrice() {
+        $totalPrice = 0;
+
+        foreach ($this->items as $item) {
+            $totalPrice += $item->getPrice();
+        }
+
+        return $totalPrice;
+    }
+
 
 }
