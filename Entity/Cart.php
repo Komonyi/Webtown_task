@@ -21,4 +21,10 @@ class Cart {
 
         return null;
     }
+
+    public function getItems() {
+        return $this->items;
+    }
+
+
 }
